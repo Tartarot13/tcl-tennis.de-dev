@@ -1,0 +1,44 @@
+.elementor-kit-17820{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-c32afb6:#873401;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-17820 e-page-transition{background-color:#FFBC7D;}.elementor-kit-17820 a{color:var( --e-global-color-c32afb6 );}.elementor-kit-17820 img{opacity:1;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.buchen-link{
+    border: 2px solid var( --e-global-color-c32afb6 ) !important;
+    border-radius: 8px;
+    margin-left: 50px !important;
+}
+
+@media(max-width: 1024px){
+    .buchen-link{
+        margin-left: 0px !important;
+         background-color: var( --e-global-color-c32afb6 );
+         margin-top: 15px !important;
+    }
+    
+    .buchen-link a{
+    color: white !important;
+        
+    }
+}
+
+.buchen-link a{
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+.buchen-link:hover{
+    background-color: var( --e-global-color-c32afb6 );
+    
+}
+
+.buchen-link:hover a{
+    color: white !important;
+}
+
+.buchen-link a::after{
+    opacity: 0;
+}
+
+.elementor-nav-menu a{
+    padding: 7px 20px !important;
+}
+
+html,body{
+    overflow-x: hidden;
+}/* End custom CSS */
